@@ -1,0 +1,115 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('food.jpg') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity:1;
+    color:#000;
+}
+header {
+    background-color:  black;
+    opacity: 0.75;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+#search-container {
+    margin-top: 10px;
+    text-align: center;
+}
+
+#search-input {
+    padding: 8px;
+    margin-right: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+#search-input:focus {
+    outline: none;
+    border-color: #4CAF50;
+}
+
+#search-container button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#search-container button:hover {
+    background-color: #45a049;
+}
+
+#menu-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.menu-category {
+    margin: 10px;
+}
+
+.menu-item {
+    color: white;
+    background-color: black;
+    border: 1px solid black;
+    opacity: 0.75;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 15px;
+    width: 250px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+h2{
+   color: #fff;
+}
+
+
+.add-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 8px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#order-summary-container {
+    background-color: transparent;
+    color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+    text-align: center;
+}
+
+#summary-list {
+    list-style: none;
+    padding: 0;
+}
+
+.confirm-button, .reset-button{
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+#total-price {
+    color: #fff;
+    font-weight: bold;
+}
